@@ -1,1 +1,62 @@
 /* Add CSS styling here */
+
+body {
+    font-size: 62.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.center-text {
+    text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+    font-family: "Lucida Grande";
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 3px solid green; */
+}
+
+nav a {
+    margin: 0 0%;
+    padding: 0;
+    background-color: dodgerblue;
+    font-size: 1rem;
+    padding: 0.8rem;
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+}
+
+h2 {
+   font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+
+}
+
+.footer-box {
+    display: flex;
+    height: 6rem;
+    width: 100%;
+    background-color: lightcyan;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.footer-box a {
+    margin: 0 0%;
+    padding: 0;
+    background-color: dodgerblue;
+    font-size: 1rem;
+    padding: 0.8rem;
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+}
