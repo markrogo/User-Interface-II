@@ -52,9 +52,10 @@ table {
 /* Add CSS styling here */
 
 body {
-    width: 70rem;
+    width: 100%;
     font-size: 62.5%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .center-text {
@@ -62,8 +63,8 @@ body {
 }
 h1 {
     font-size: 2.5rem;
-    font-family: "Lucida Sans", "Lucida Grande";
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     margin-top: 1rem;
     margin-bottom: 1.25rem;
@@ -78,43 +79,60 @@ nav {
 }
 
 nav a {
-    margin: 0 0%;
-    padding: 0;
+    /* margin: .1rem .1rem; */
+    padding: 0.1rem;
     background-color: dodgerblue;
     font-size: 1rem;
     padding: 0.8rem;
     text-decoration: none;
     color: white;
-    border: 2px solid black;
+    border: 2px solid lightgrey;
 }
 
 h2 {
    font-size: 1.5rem;
    margin-bottom: 1.25rem;
    text-transform: uppercase;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
 }
 
-p {
+.main-text {
     margin-left: 15%;
     margin-right: 15%;
     font-size: 1rem;
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 
 }
 
 .wide-image {
     margin-top: 1.25rem;
-    width: 70rem;
-    height: 35rem;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 1.5rem;
 }
 .gallery {
     display: flex;
     flex-direction: row;
-    border: 5px solid black;
+    /* border: 5px solid black; */
+    justify-content: space-between;
+    background-color: mistyrose;
 }
 .tall-image {
-    width: 12rem;
-    height: 36rem;
+    width: 17%;
+    height: 100%;
+}
+.tall-textbox {
+    width:17%;
+    height: 100%;
+    align-self: center;
+    align-text: center;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 3%;
+
 }
 
 .footer-box {
