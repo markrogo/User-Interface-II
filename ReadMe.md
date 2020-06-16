@@ -31,8 +31,8 @@ New features of a project should occur in a new branch in the same repository. F
 git checkout -b <firstName-lastName-day2> <firstName-lastName>.
 ```
 
-- [ ] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName-day2>`.
+- [x] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName-day2>`.
 
 ### Task 2: Minimum Viable Product
 
