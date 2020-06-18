@@ -71,6 +71,16 @@ h1 {
     margin-bottom: 1.25rem;
 }
 
+h2 {
+    margin:  0 10%;
+    text-align: center;
+}
+
+h3 {
+    margin: 3rem 0;
+    text-align: center;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -79,7 +89,7 @@ nav {
     margin-bottom: 1rem;
 }
 
-nav a {
+ a {
     /* margin: .1rem .1rem; */
     padding: 0.1rem;
     background-color: dodgerblue;
@@ -137,14 +147,13 @@ h2 {
     /* height: 40%; */
     align-self: center;
     text-align: center; 
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 3%;
 
 }
-
-.lets-talk a { 
+/* .lets-talk a { 
    
     align-self: center;
     text-align: center;
@@ -158,7 +167,7 @@ h2 {
     text-decoration: none;
     color: white;
     border: 2px solid lightgrey;
-}
+} */
 
 .footer-box {
     display: flex;
@@ -171,7 +180,7 @@ h2 {
     /* border: 1px solid black; */
 }
 
-.footer-box a {
+/* .footer-box a {
     margin: 0 0%;
     padding: 0;
     background-color: dodgerblue;
@@ -180,7 +189,7 @@ h2 {
     text-decoration: none;
     color: white;
     border: 2px solid lightgrey;
-}
+} */
  
 .social-media {
         width: 100%;
@@ -207,9 +216,6 @@ h2 {
             line-height: 1;
             background-color:lightgray;
     }
-        .footer-box  {
-            /* background-color: greenyellow; for testing */
-            }
         nav {
                 display: flex;
                 flex-direction: column;
@@ -222,14 +228,14 @@ h2 {
         nav a {
             /* margin: .1rem .1rem; */
             width: 20%;
-            padding: 0.1rem;
+            margin: 0.1rem 0.1rem;
             background-color: dodgerblue;
             font-size: 1rem;
             padding: 0.8rem;
             text-decoration: none;
             text-align: center;
             color: white;
-            border: 2px solid lightgrey;
+            border: none;
         }
 
         .gallery {
@@ -248,11 +254,18 @@ h2 {
             margin-bottom: 2rem;
         }
 
+        .tall-textbox {
+            margin: 0;
+        }
         .lets-talk {
             display: flex;
             width: 100%;
             flex-direction: column;
             justify-content: space-evenly;
+        }
+
+        .footer-box a {
+            border: none;
         }
     }            
     
@@ -265,20 +278,23 @@ h2 {
         background-color:black;
         color: white;
 }
-
+    .gallery {
+        margin: 0;
+    }
     .footer-box  {
         background-color:black;
+        margin-top: -2rem;
     }            
 
-    .social-media a {
-        margin: 0 0%;
-        padding: 0;
-        font-size: 2rem;
+    a {
+        /* margin: .1rem .1rem; */
+        padding: 0.1rem;
+        background-color: dodgerblue;
+        font-size: 1rem;
         padding: 0.8rem;
         text-decoration: none;
-        color: salmon;
-        background-color: black;
+        color: white;
         border: none;
-    }  
+    }
 
 }
