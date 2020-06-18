@@ -38,14 +38,14 @@ git checkout -b <firstName-lastName-day2> <firstName-lastName>.
 
 Use the checklist below to guide your work today. Your final product should be presentable at mobile, tablet and a desktop-width.
 
-- [ ] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
-- [ ] Introduce max-width media queries into your project at 800px and 500px
-- [ ] Add accessability features to your webpage
-- [ ] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
+- [x] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
+- [x] Introduce max-width media queries into your project at 800px and 500px
+- [x] Add accessability features to your webpage
+- [x] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
 
 ### Task 2b: Exit Ticket
 
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/hALhPTQrbZCJtPYhn/F78eZwAGpSS3cR)
+Once yo begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/hALhPTQrbZCJtPYhn/F78eZwAGpSS3cR)
 
 The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
 
