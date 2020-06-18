@@ -297,4 +297,7 @@ h2 {
         border: none;
     }
 
+    .social-media a {
+        background-color: black;
+    }
 }
